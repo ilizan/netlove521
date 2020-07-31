@@ -3,7 +3,7 @@ html{
   height: 100vh;
 }
 body{
-  background-image: url(../images/bg.jpg);
+  background-image: url(https://cdn.jsdelivr.net/gh/ilizan/netlove521@master/images/bg.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: black;
