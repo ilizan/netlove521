@@ -1,0 +1,147 @@
+body{
+    background-color: #f1f2f4;
+    margin: 0;
+    font: 14px/24px "PingFang SC","Lantinghei SC","Microsoft YaHei",arial,"\5b8b\4f53",sans-serif,tahoma;
+}
+html,body{
+    height: 100%;
+}
+::-moz-selection{background:#3f89e8; color:#FFF;}
+::selection {background:#3f89e8; color:#FFF;}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+body *{
+}
+.top{
+    height: 500px;;
+    background-color: #3f89e8;
+}
+.menuall{
+    height: 70px;
+    width: 100%;
+    background-color: #3f89e8;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2)
+}
+.logodiv{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 80px;
+    line-height: 200px;
+    font-size: 100px;
+    text-align: center;
+    color: #FFF;
+}
+.menuleft{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    display: block;
+    background-color: #2b61a9;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+}
+.menuright{
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+    display: block;
+    background-color: #2b61a9;
+    float: right;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+}
+.content{
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding: 20px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 0;left: 0;
+
+}
+.contop{
+    height: 150px;
+    margin-left:80px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+}
+.contop h2,.contop h3{
+    font-weight: inherit;
+    margin-top: 20px;
+
+}
+.contop h2{
+    font-size: 22px;
+}
+.contop h2 label{
+}
+.iconimg{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+    margin-left: -60px;
+    margin-top: 15px;
+    margin-right: 10px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+}
+.contl{
+    width: 750px;
+    float: left;
+
+}
+.cons{
+    padding: 10px;
+    background-color: #FFF;
+}
+.contl > div{
+    margin-bottom: 20px;
+}
+.contr{
+    float: right;
+    height: 112px;
+    width: 200px;
+    background-color: #FFF;
+    padding: 20px;
+}
+.contr h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    font-weight:100;
+    color: red;
+    background: -webkit-linear-gradient(left, red , blue);
+    background: -o-linear-gradient(right, red, blue);
+    background: -moz-linear-gradient(right, red, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, red , blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contr label{
+    color: #999;
+    font-weight:100;
+}
+.contr #clock{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.contr #clock span.digit{
+    font-size: 20px;
+    color: red;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
+
+}
+.menuright a{
+    color: #FFF;
+}
