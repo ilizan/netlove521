@@ -20,7 +20,7 @@ body:before {
   z-index: -1;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAFklEQVQIHWNgYGBI+///PwMIgwmsHAC5exhP0nQwxgAAAABJRU5ErkJggg==);
 }
-html,body,p,span{
+html,body,p,h2,span{
     margin: 0;
     padding: 0;
     color: #fff;
@@ -127,6 +127,31 @@ body *{
     text-align: center;
 }
 .cenT{
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
+  margin-top: 80px;
+  padding: 10px 0;
+  background-color: rgb(134 130 130 / 50%);
+}
+.cenT h2{
+  font-size: 20px;
+  font-weight: 500;
+  font-weight: bold;
+  font-weight:100;
+  color: red;
+  background: -webkit-linear-gradient(left, red , blue);
+  background: -o-linear-gradient(right, red, blue);
+  background: -moz-linear-gradient(right, red, blue); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, red , blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+  padding-bottom: 5px;
+}
+#clock span.digit{
+  font-size: 20px;
+  color: red;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
 }
 /* 布局结束 */
